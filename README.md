@@ -1,10 +1,14 @@
 # micro-page
-a cli of micro-page 
+cli of micro-page 
 
 ## Usage
 
 ```
+npm create page-vue
+npm start page-vue
 
+APP_ENV=develop npm start 
+APP_ENV=production npm build
 ```
 
 ## TODO-LIST
