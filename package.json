@@ -1,0 +1,54 @@
+{
+  "name": "micro-page",
+  "version": "0.0.1",
+  "description": "a scaffold to build application",
+  "keywords": [
+    "micro",
+    "vue",
+    "react"
+  ],
+  "author": "bruce yff <yanfanfeng@yanfanfengdeMacBook.local>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "ts-node lib/developApp",
+    "build": "ts-node lib/buildApp",
+    "create": "ts-node lib/createPage",
+    "clean": "rm -rf dist-prev/** & rm -rf .cache"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@types/fs-extra": "^8.1.0",
+    "@types/prompts": "^2.0.5",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@vue/component-compiler-utils": "^3.1.1",
+    "chalk": "^3.0.0",
+    "decamelize": "^4.0.0",
+    "fs-extra": "^9.0.0",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "prompts": "^2.3.2",
+    "sass": "^1.26.3",
+    "ts-node": "^8.8.1",
+    "vue-property-decorator": "^8.4.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
